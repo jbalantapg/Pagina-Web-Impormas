@@ -21,7 +21,7 @@ async function getData(action, params = {}, PrintUrl = false) {
         console.log(url);
     }
 
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUaXBvIjoiTm9Vc2VyIiwiVXN1YXJpb2lkIjoiLTk5IiwiRW1wcmVzYWlkIjoiMSIsImV4cCI6MjA3MTY3NDMxN30.HW1ehSSvGo8jBHQp0xnuicPjsZFdp-gDGa696LxOfK8";
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUaXBvIjoiTm9Vc2VyIiwiVXN1YXJpb2lkIjoiLTk5IiwiRW1wcmVzYWlkIjoiMSIsImV4cCI6MjA3MTY4NTk3Nn0.vszxPYtUAswzubn1Aj4wiHaclHLP7mR7XmFJqGq1Bu4";
     return await fetch(url, {
         method: "GET",
         headers: {
@@ -107,7 +107,7 @@ async function postData(action, paramsGet = {}, dataPost = {}, printUrl = false)
     ///Se concatena de forma automatica la empresa y el usuario id
     url += "usuarioid=" + 1 + "&empresaid=" + 1;
 
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUaXBvIjoiTm9Vc2VyIiwiVXN1YXJpb2lkIjoiLTk5IiwiRW1wcmVzYWlkIjoiMSIsImV4cCI6MjA3MTY3NDMxN30.HW1ehSSvGo8jBHQp0xnuicPjsZFdp-gDGa696LxOfK8";
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJUaXBvIjoiTm9Vc2VyIiwiVXN1YXJpb2lkIjoiLTk5IiwiRW1wcmVzYWlkIjoiMSIsImV4cCI6MjA3MTY4NTk3Nn0.vszxPYtUAswzubn1Aj4wiHaclHLP7mR7XmFJqGq1Bu4";
 
     if (printUrl === true)
         console.log(url);
