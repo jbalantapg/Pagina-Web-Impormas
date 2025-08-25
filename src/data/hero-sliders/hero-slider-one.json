@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Products",
+    "subtitle": "Winter Offer 2020 Collection",
+    "image": "/assets/img/slider/banner1.jpeg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 2,
+    "title": "Smart Products",
+    "subtitle": "Summer Offer 2020 Collection",
+    "image": "/assets/img/slider/banner2.jpeg",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Smart Products",
+    "subtitle": "Summer Offer 2020 Collection",
+    "image": "/assets/img/slider/banner3.jpeg",
+    "url": "/shop-grid-standard"
+  }
+]
